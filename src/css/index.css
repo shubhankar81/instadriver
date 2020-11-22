@@ -1,0 +1,242 @@
+body {
+  margin: 0;
+  font-family: 'Rubik', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.dropdown-toggle::after {
+  border-top: 0 solid !important;
+  border-right: 0 solid transparent !important;
+  border-bottom: 0 !important;
+  border-left: 0 solid transparent !important;
+  
+}
+.linkheader {
+  color: black !important;
+  border: 1px solid;
+  width: 7rem;
+  text-align: center;
+  margin: 1%;
+}
+.headeremail{
+  width: 100%;
+  height: 32px;
+  background-color: #3B3B3B;
+  padding: 4px;
+  color: #b0b0b0;
+}
+.headeremail p {
+  text-align: right;
+  margin-right: 15%;
+}
+.headerMain {
+  padding: 1.5rem;
+  height: 440px;
+  text-align: center;
+  color: #fff;
+  background-image: url(../images/BANNER_div.png);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  padding-bottom: 40px;
+
+}
+.footerDetail{
+  padding: 1.5rem;
+  height: 290px;
+  text-align: center;
+  color: #fff;
+  background-image: url(../images/imgsmall.png);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  padding-bottom: 40px;
+  
+}
+.fluidmargin{
+  margin-top: 5%;
+}
+.footer{
+  margin-top: 4%;
+  padding: 2.3rem;
+  height: 400px;
+  text-align: center;
+  color: #fff;
+  background-image: url(../images/footer.png);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  padding-bottom: 40px;
+  
+  
+}
+.usefullinks {
+  margin-top: 8% !important;
+}
+ul {
+  
+  text-align: left;
+}
+ul li {
+  list-style-type: none;
+  
+}
+.apply{
+  float: right;
+  border-color: #fed136 !important;
+  background-color: #fed136 !important;
+}
+li a {
+  color: #b7acac !important;
+}
+li a:hover{
+  color: #f8bd00 !important;
+}
+.contact{
+  text-align: center;
+  margin-left: 18%;
+}
+.social li {
+  display: inline;
+  padding-left: 6%;
+}
+.usefullinks{
+  margin-top : 5%;
+}
+.footerDetail > .card-group > .card {
+  background: transparent !important;
+}
+.navbar-nav a:hover {
+  background-color: black;
+  color: white !important;
+}
+.dropdown-toggle{
+  background-color: white !important;
+  color: black !important;
+  border-color: white !important;
+  /* background-image: url('../images/menu.svg'); */
+  
+}
+.filterBox{
+  height: 366px;
+  background: rgb(0 0 0 / 50%);
+  width: 70%;
+  margin-left: 16%;
+  padding: 1rem;
+}
+.formSelect{
+  height: 44px  !important;
+  letter-spacing: 0.24px !important;
+  line-height: 19px !important;
+  color: #7D7D7D  !important;
+  padding: 10px 15px !important;
+  cursor: pointer !important;
+  border-radius: 1px !important;
+}
+.custominput{
+ border-radius: 1px !important;
+}
+.input-group-text{
+  border-radius: 1px !important;
+}
+.form-group{
+  padding-top: 1%;
+}
+.lightimg{
+  float: right;
+  width: 84%;
+  height: 88%;
+}
+.btn-warning{
+  float: left;
+  width: 95%;
+  height: 88%;
+}
+.maincontainer{
+  text-align: center;
+  margin-top: 2%;
+}
+.navcontent{
+  display: inline-block !important;
+  padding-top: 2%;
+}
+.navemp{
+  color:black !important;
+  border: 1px solid #F8BD00!important;
+    background: #fff;
+}
+
+.nav-pills .nav-link{
+  color:black !important;
+  border-radius: 0px !important;
+  }
+.navemp > .active{
+  color: #fff !important;
+    background-color: #F8BD00 !important;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 500;
+}
+.divDetail{
+  padding-top: 5%;
+
+}
+.card {
+  border: 0px !important;
+  padding: 3%;
+}
+.text-center {
+  text-align: center!important;
+  padding: 4%;
+}
+.employers{
+  background-color: #fefcf5;
+}
+.employers > .card {
+  background-color: #fefcf5;
+    text-align: center;
+    margin-left: 30%;
+    width:62%
+}
+.drivers{
+  background-color:  #F8BD00;
+}
+.drivers > .card {
+  background-color:  #F8BD00;
+    text-align: center;
+    width: 62% ;
+    margin-left: 8%;
+    color: white;
+
+}
+.employers > .card >  img{
+  margin-top : 8% !important;
+}
+.drivers >.card > img{
+  margin-top : 8% !important;
+}
+h5 > a {
+  color : white !important;
+}
+.footerTitle {
+  text-align: center;
+    padding-top: 7%;
+}
+.register {
+  text-align: center;
+  color: white;
+  background: #f8bd00;
+}
+.verified {
+  text-align: center;
+  color: #f8bd00;
+  background: #3b3b3b;
+}
